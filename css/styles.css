@@ -507,6 +507,78 @@ body {
 
 }
 
+.section-mainpage-8__container {
+    margin-top: 7vw;
+    width: 100vw;
+    position: relative;
+}
+.section-mainpage-8__bgd-img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+.section-mainpage-8__front {
+    position: absolute;
+    top: 5.5vw;
+    left: 0;
+    right: 0;
+    width: 88.8vw;
+    height: 45.75vw;
+    margin: 0 auto;
+}
+.section-mainpage-8__front-img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+.section-mainpage-8__front-container2 {
+    position: absolute;
+    top: 0;
+    background-color: #ffffff;
+    width: 36.31vw;
+    height: 38.2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-mainpage-8__span-gray {
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #939694;
+
+}
+.section-mainpage-8__title {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 31vw;
+    margin-top: 1vw;
+}
+.section-mainpage-8__p {
+    width: 25vw;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.1vw;
+    line-height: 166.19%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    margin-top: 1.5vw;
+
+}
+.section-mainpage-8__button {
+    padding: 1.18vw 3vw;
+    margin-top: 3.5vw;
+}
+
 
 
 
