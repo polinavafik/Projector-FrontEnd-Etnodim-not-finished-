@@ -473,6 +473,39 @@ body {
     padding-top: 2vw;
 }
 
+.section-mainpage-7__container {
+    width: 66.45vw;
+    height: 29vw;
+    margin-top: 9vw;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-mainpage-7__img-left {
+    width: 21.31vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.section-mainpage-7__img-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 22vw;
+}
+.section-mainpage-7__title {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 140.3%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    position: absolute;
+    margin-top: 7vw;
+
+}
 
 
 
