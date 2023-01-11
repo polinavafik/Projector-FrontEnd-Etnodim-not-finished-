@@ -605,13 +605,34 @@ body {
 .section-mainpage-9__location {
     display: flex;
     align-items: center;
+    margin-top: 4vw;
 }
 .section-mainpage-9__p {
+    margin-left: 1vw;
 }
 .section-mainpage-9__time {
     display: flex;
+    margin-top: 2vw;
+}
+.section-mainpage-9__time-icon {
+    align-self:flex-start;
+}
+.section-mainpage-9__time-p {
+    margin-left: 1vw;
+    padding-bottom: 1vw;
 }
 .section-mainpage-9-a {
+    font-weight: 600;
+    font-size: 1.1vw;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #DA1F39;
+    text-decoration: underline;
+    text-underline-offset: 0.3vw;
+}
+.section-mainpage-9__a-p {
+    padding-top: 2vw;
 }
 .section-mainpage-9__container-2 {
     width: 49.5vw;
