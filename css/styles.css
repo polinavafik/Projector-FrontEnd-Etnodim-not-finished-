@@ -917,6 +917,7 @@ body {
     background-color: #DA1F39;
     padding: 1.2vw 2vw;
     cursor: pointer;
+    white-space: nowrap;
 }
 .section-cart__content-bottom-a {
     font-weight: 700;
@@ -927,6 +928,7 @@ body {
     text-underline-offset: 0.3vw;
     color: #000000;
     padding: 1.2vw 2vw;
+    white-space: nowrap;
 }
 .section-cart__content-text {
     width: 45vw;
