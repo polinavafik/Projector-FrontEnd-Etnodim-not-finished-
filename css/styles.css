@@ -752,6 +752,7 @@ body {
 
 .section-cart__menu {
     margin-left: 5.5vw;
+    align-items: center;
 }
 
 .section-cart__menu-item {
@@ -1017,6 +1018,8 @@ margin-top: 0.69vw;
 .catalog__content-main-wrapper-mobile{display: none;}
 .footer__menu-mobile{display: none;}
 .section-goods__menu-item--goback {display: none;}
+.section-cart__menu-item--goback {display: none;}
+.section-cart__box-one-title-a {text-decoration: none; color: inherit;}
 
 
 

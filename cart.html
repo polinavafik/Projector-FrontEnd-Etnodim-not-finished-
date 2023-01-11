@@ -12,21 +12,6 @@
 </head>
 
 <body>
-
-    <svg width="0" height="0" class="hidden">
-        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="minus">
-            <path d="M3 8H14V9H3V8Z" fill="black"></path>
-        </symbol>
-        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="plus">
-            <path
-                d="M7.53125 2.375H8.46875C8.55208 2.375 8.59375 2.41667 8.59375 2.5V13.5C8.59375 13.5833 8.55208 13.625 8.46875 13.625H7.53125C7.44792 13.625 7.40625 13.5833 7.40625 13.5V2.5C7.40625 2.41667 7.44792 2.375 7.53125 2.375Z"
-                fill="black"></path>
-            <path
-                d="M2.75 7.40625H13.25C13.3333 7.40625 13.375 7.44792 13.375 7.53125V8.46875C13.375 8.55208 13.3333 8.59375 13.25 8.59375H2.75C2.66667 8.59375 2.625 8.55208 2.625 8.46875V7.53125C2.625 7.44792 2.66667 7.40625 2.75 7.40625Z"
-                fill="black"></path>
-        </symbol>
-    </svg>
-
     <header class="header flex">
         <img class="header__burger" src="./img/burger.svg" alt="">
         <nav class="header__nav none">
@@ -59,14 +44,14 @@
     </header>
 
     <main>
-        <section class="section-cart section">
+        <section class="section-cart">
             <div class="section-cart__menu flex">
                 <a class="none section-cart__menu-item" href="./index.html">Головна</a>
                 <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
                 <a class="none section-cart__menu-item" href="#">Жінкам</a>
                 <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
                 <a class="section-cart__menu-item--goback" href="#"><img src="./img/go-back.svg" alt=""></a>
-                <a class="section-cart__menu-item" href="#">Жіночі вишиванки</a>
+                <a class="section-cart__menu-item" href="./catalog.html">Жіночі вишиванки</a>
                 <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
                 <a class="none section-cart__menu-item" href="#">Вишиванка з рослинним
                     орнаментом Lito</a>
@@ -80,7 +65,8 @@
 
                     <div class="section-cart__box">
                         <div class="section-cart__box-one">
-                            <h4 class="section-cart__box-one-title"><a href="">Вишиванка з рослинним орнаментом Lito</a>
+                            <h4 class="section-cart__box-one-title"><a class="section-cart__box-one-title-a"
+                                    href="/item.html">Вишиванка з рослинним орнаментом Lito</a>
                             </h4>
                             <div class="section-cart__box-one-color">
                                 <span class="section-cart__box-one-span box-one-span-pr">Колір:</span>
@@ -289,6 +275,20 @@
 
             </div>
         </div>
+
+        <svg width="0" height="0" class="hidden">
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="minus">
+                <path d="M3 8H14V9H3V8Z" fill="black"></path>
+            </symbol>
+            <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="plus">
+                <path
+                    d="M7.53125 2.375H8.46875C8.55208 2.375 8.59375 2.41667 8.59375 2.5V13.5C8.59375 13.5833 8.55208 13.625 8.46875 13.625H7.53125C7.44792 13.625 7.40625 13.5833 7.40625 13.5V2.5C7.40625 2.41667 7.44792 2.375 7.53125 2.375Z"
+                    fill="black"></path>
+                <path
+                    d="M2.75 7.40625H13.25C13.3333 7.40625 13.375 7.44792 13.375 7.53125V8.46875C13.375 8.55208 13.3333 8.59375 13.25 8.59375H2.75C2.66667 8.59375 2.625 8.55208 2.625 8.46875V7.53125C2.625 7.44792 2.66667 7.40625 2.75 7.40625Z"
+                    fill="black"></path>
+            </symbol>
+        </svg>
     </footer>
 </body>
 
