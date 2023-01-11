@@ -212,6 +212,7 @@ body {
     justify-content: space-between;
     margin-left: 5.5vw;
     margin-right: 5.5vw;
+    align-items: center;
 }
 .section-mainpage-3__title {
     font-family: 'Dela Gothic One';
@@ -284,6 +285,104 @@ body {
     top: 0;
     opacity: 0;
     transition: 0.3s;
+}
+
+.section-mainpage-4__container {
+    margin-top: 8.8vw;
+    position: relative;
+}
+.section-mainpage-4__bgd-img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+.section-mainpage-4__front {
+    position: absolute;
+    top: 5.5vw;
+    left: 0;
+    right: 0;
+    width: 88.8vw;
+    height: 45.13vw;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display: flex;
+}
+.section-mainpage-4__front-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-mainpage-4__span-gray {
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #939694;
+
+}
+.section-mainpage-4__title {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    width: 31vw;
+    margin-top: 1vw;
+}
+.section-mainpage-4__p {
+    width: 31vw;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.1vw;
+    line-height: 166.19%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #000000;
+    margin-top: 1.5vw;
+
+}
+.section-mainpage__button {
+    padding: 1.18vw 3.68vw;
+    margin-top: 3.5vw;
+}
+.section-mainpage-4__front-container2 {
+    width: 50%;
+}
+.section-mainpage-4__front-img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+.section-mainpage-5__container {
+    margin-top: 8vw;
+}
+.section-mainpage-5__container-top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
+    align-items: center;
+}
+.section-mainpage-5__title {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5vw;
+    line-height: 140.3%;
+    text-transform: uppercase;
+    color: #000000;
+}
+.section-mainpage-5__btn {
+    background: none;
+    cursor: pointer;
+}
+.section-mainpage-5__btn-img {
+    width: 3.5vw;
 }
 
 
