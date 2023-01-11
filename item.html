@@ -12,20 +12,6 @@
 </head>
 
 <body>
-    <svg width="0" height="0" class="hidden">
-        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="minus">
-            <path d="M3 8H14V9H3V8Z" fill="black"></path>
-        </symbol>
-        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="plus">
-            <path
-                d="M7.53125 2.375H8.46875C8.55208 2.375 8.59375 2.41667 8.59375 2.5V13.5C8.59375 13.5833 8.55208 13.625 8.46875 13.625H7.53125C7.44792 13.625 7.40625 13.5833 7.40625 13.5V2.5C7.40625 2.41667 7.44792 2.375 7.53125 2.375Z"
-                fill="black"></path>
-            <path
-                d="M2.75 7.40625H13.25C13.3333 7.40625 13.375 7.44792 13.375 7.53125V8.46875C13.375 8.55208 13.3333 8.59375 13.25 8.59375H2.75C2.66667 8.59375 2.625 8.55208 2.625 8.46875V7.53125C2.625 7.44792 2.66667 7.40625 2.75 7.40625Z"
-                fill="black"></path>
-        </symbol>
-    </svg>
-
     <header class="header flex">
         <img class="header__burger" src="./img/burger.svg" alt="">
         <nav class="header__nav none">
@@ -219,7 +205,7 @@
                 </div>
 
                 <div class="section-goods__carousel-slider carousel-slider">
-                    <div class="carousel-slider__item">
+                    <div class="carousel-slider__item carousel-slider__item--goods">
                         <a class="carousel-slider__item-a" href="#">
                             <picture>
                                 <source media="(min-width:550px)" srcset="./img/carousel-1.png">
@@ -230,7 +216,7 @@
                         <p class="carousel-slider__item-price">4 200 грн.</p>
                     </div>
 
-                    <div class="carousel-slider__item">
+                    <div class="carousel-slider__item carousel-slider__item--goods">
                         <a class="carousel-slider__item-a" href="#">
                             <picture>
                                 <source media="(min-width:550px)" srcset="./img/carousel-2.png">
@@ -241,7 +227,7 @@
                         <p class="carousel-slider__item-price">3 800 грн.</p>
                     </div>
 
-                    <div class="carousel-slider__item">
+                    <div class="carousel-slider__item carousel-slider__item--goods">
                         <a class="carousel-slider__item-a" href="#">
                             <picture>
                                 <source media="(min-width:550px)" srcset="./img/carousel-3.png">
@@ -253,7 +239,7 @@
                         <p class="carousel-slider__item-price">4 200 грн.</p>
                     </div>
 
-                    <div class="carousel-slider__item">
+                    <div class="carousel-slider__item carousel-slider__item--goods">
                         <a class="carousel-slider__item-a" href="#">
                             <picture>
                                 <source media="(min-width:550px)" srcset="./img/carousel-4.png">
@@ -271,13 +257,19 @@
                 </div>
 
             </div>
-
-
-
-
-
-
-
+            <svg width="0" height="0" class="hidden">
+                <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="minus">
+                    <path d="M3 8H14V9H3V8Z" fill="black"></path>
+                </symbol>
+                <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="plus">
+                    <path
+                        d="M7.53125 2.375H8.46875C8.55208 2.375 8.59375 2.41667 8.59375 2.5V13.5C8.59375 13.5833 8.55208 13.625 8.46875 13.625H7.53125C7.44792 13.625 7.40625 13.5833 7.40625 13.5V2.5C7.40625 2.41667 7.44792 2.375 7.53125 2.375Z"
+                        fill="black"></path>
+                    <path
+                        d="M2.75 7.40625H13.25C13.3333 7.40625 13.375 7.44792 13.375 7.53125V8.46875C13.375 8.55208 13.3333 8.59375 13.25 8.59375H2.75C2.66667 8.59375 2.625 8.55208 2.625 8.46875V7.53125C2.625 7.44792 2.66667 7.40625 2.75 7.40625Z"
+                        fill="black"></path>
+                </symbol>
+            </svg>
 
         </section>
     </main>

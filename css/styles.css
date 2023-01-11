@@ -210,6 +210,8 @@ body {
 .section-mainpage-3__container-top {
     display: flex;
     justify-content: space-between;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
 }
 .section-mainpage-3__title {
     font-family: 'Dela Gothic One';
@@ -229,13 +231,23 @@ body {
 }
 .carousel-slider {
     display: flex;
+    margin-left: 5.5vw;
+    margin-top: 2.7vw;
 }
 .carousel-slider__item {
+    margin-right: 2vw;
+    position: relative;
+}
+.carousel-slider__item--mainpage {
+    height: 33vw;
 }
 .carousel-slider__item-a {
     text-decoration: none;
 }
 .carousel-slider__item-img {
+    width: 100%;
+    display: block;
+    max-width: 100%;
 }
 .carousel-slider__item-title {
     font-weight: 300;
@@ -243,6 +255,7 @@ body {
     line-height: 166.19%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
+    margin-top: 1vw;
 }
 .carousel-slider__item-price {
     font-weight: 700;
@@ -250,6 +263,10 @@ body {
     line-height: 166.2%;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #000000;
+    padding-top: 1vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -632,8 +649,6 @@ body {
 .section-goods__carousel-top {
     align-items: center;
     justify-content: space-between;
-    margin-left: 5.5vw;
-    margin-right: 5.5vw;
 }
 .section-goods__carousel-title {
     font-family: 'Dela Gothic One';
@@ -647,6 +662,9 @@ body {
 .section-goods__carousel-arrow {
     cursor: pointer;
     background: none;
+}
+.carousel-slider__item--goods {
+    height: 30vw;
 }
 /*
 .section-goods__carousel-slider {
