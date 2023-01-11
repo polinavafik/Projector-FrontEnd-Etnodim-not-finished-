@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <title>Etnodim - cart</title>
+</head>
+
+<body>
+
+    <svg width="0" height="0" class="hidden">
+        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" id="minus">
+            <path d="M3 8H14V9H3V8Z" fill="black"></path>
+        </symbol>
+        <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" id="plus">
+            <path
+                d="M7.53125 2.375H8.46875C8.55208 2.375 8.59375 2.41667 8.59375 2.5V13.5C8.59375 13.5833 8.55208 13.625 8.46875 13.625H7.53125C7.44792 13.625 7.40625 13.5833 7.40625 13.5V2.5C7.40625 2.41667 7.44792 2.375 7.53125 2.375Z"
+                fill="black"></path>
+            <path
+                d="M2.75 7.40625H13.25C13.3333 7.40625 13.375 7.44792 13.375 7.53125V8.46875C13.375 8.55208 13.3333 8.59375 13.25 8.59375H2.75C2.66667 8.59375 2.625 8.55208 2.625 8.46875V7.53125C2.625 7.44792 2.66667 7.40625 2.75 7.40625Z"
+                fill="black"></path>
+        </symbol>
+    </svg>
+
+    <header class="header flex">
+        <img class="header__burger" src="./img/burger.svg" alt="">
+        <nav class="header__nav none">
+            <ul class="header__nav-ul flex">
+                <li class="header__nav-item header__nav-item--pink"><a class="header__nav-item-a"
+                        href="./catalog.html">Каталог</a>
+                </li>
+                <li class="header__nav-item"><a class="header__nav-item-a" href="#">Знижки</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-a" href="#">Блог</a></li>
+                <li class="header__nav-item"><a class="header__nav-item-a" href="#">Про нас</a></li>
+            </ul>
+        </nav>
+        <a href="./index.html"><img class="header__logo" src="./img/etnodim-logo.svg" alt="logo"></a>
+        <div class="header__right flex">
+            <div class="header__right-item flex none">
+                <p class="header__right-item--p">UA</p>
+                <img src="./img/check.svg" alt="">
+            </div>
+            <div class="header__right-item flex none">
+                <img src="./img/uah-icon.svg" alt="">
+                <img src="./img/check.svg" alt="">
+            </div>
+            <p class="header__right-item header__right-p none">+38 097 888 92 92</p>
+            <img class="header__right-item header__right-img" src="./img/search-icon.svg" alt="">
+            <a href="./cart.html"><img class="header__right-item header__right-img header__right-item--no-margin"
+                    src="./img/cart-icon.svg" alt=""></a>
+
+        </div>
+
+    </header>
+
+    <main>
+        <section class="section-cart section">
+            <div class="section-cart__menu flex">
+                <a class="none section-cart__menu-item" href="./index.html">Головна</a>
+                <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
+                <a class="none section-cart__menu-item" href="#">Жінкам</a>
+                <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
+                <a class="section-cart__menu-item--goback" href="#"><img src="./img/go-back.svg" alt=""></a>
+                <a class="section-cart__menu-item" href="#">Жіночі вишиванки</a>
+                <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
+                <a class="none section-cart__menu-item" href="#">Вишиванка з рослинним
+                    орнаментом Lito</a>
+                <img class="none section-cart__menu-item--line" src="./img/line.svg" alt="">
+                <a class="none section-cart__menu-item section-cart__menu-item--active" href="#">Кошик</a>
+            </div>
+
+            <div class="section-cart__content">
+                <div class="section-cart__content-top">
+                    <img src="./img/cart-item-img.png" alt="">
+
+                    <div class="section-cart__box">
+                        <div class="section-cart__box-one">
+                            <h4 class="section-cart__box-one-title"><a href="">Вишиванка з рослинним орнаментом Lito</a>
+                            </h4>
+                            <div class="section-cart__box-one-color">
+                                <span class="section-cart__box-one-span box-one-span-pr">Колір:</span>
+                                <select class="section-cart__box-one-select">
+                                    <option value="1">бежевий</option>
+                                    <option value="2">бежевий</option>
+                                    <option value="3">бежевий</option>
+                                </select>
+                            </div>
+                            <div class="section-cart__box-one-size">
+                                <span class="section-cart__box-one-span">Розмір:</span>
+                                <select class="section-cart__box-one-select">
+                                    <option value="1">42-44 | XL</option>
+                                    <option value="2">42-44 | XL</option>
+                                    <option value="3">42-44 | XL</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="section-cart__box-two">
+                            <h4 class="section-cart__box-title">Ціна</h4>
+                            <p class="section-cart__box-price">2 800 грн.</p>
+                        </div>
+
+                        <div class="section-cart__box-three">
+                            <h4 class="section-cart__box-title">Кількість</h4>
+                            <div class="section-cart__box-three-amount">
+                                <button class="section-cart__box-three-amount-btn">
+                                    <img src="./img/minus.svg" alt="">
+                                </button>
+                                <span class="section-cart__box-three-amount-num">1</span>
+                                <button class="section-cart__box-three-amount-btn">
+                                    <img src="./img/plus.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+
+                        <div class="section-cart__box-four">
+                            <h4 class="section-cart__box-title">Сума</h4>
+                            <p class="section-cart__box-price">2 800 грн.</p>
+                        </div>
+
+                    </div>
+
+                    <button class="section-cart__close-btn"><img src="./img/close-btn.svg" alt=""></button>
+
+                </div>
+
+                <div class="section-cart__content-bottom">
+                    <div>
+                        <div class="section-cart__line"></div>
+                        <div class="section-cart__content-bottom-total">
+                            <h4 class="section-cart__content-bottom-total-h4">До сплати</h4>
+                            <p class="section-cart__content-bottom-total-p">2 800 грн.</p>
+                        </div>
+                    </div>
+
+                    <button class="section-cart__button section__button">оформити замовлення</button>
+
+                    <a class="section-cart__content-bottom-a" href="#">продовжити покупки</a>
+                </div>
+
+                <div class="section-cart__content-text">
+                    <p class="section-cart__content-text-p">Не турбуйтесь якщо вам не підійде розмір, всі моделі мають
+                        різний крій: одні маломірні, інші
+                        повнорозмірні. На кожен наш товар розповсюджується гарантія, яка дозволяє обміняти або повернути
+                        річ протягом 31го дня після дати покупки.
+                    </p>
+                    <p class="section-cart__content-text-p">
+                        Таке повернення можливе за умови, якщо товар не був у використанні. Зверніться до менеджера
+                        магазину, він надасть вам більш детальну інформацію :)</p>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__wrapper-logo">
+                <img class="footer__logo" src="./img/etnodim-logo.svg" alt="">
+            </div>
+            <div class="footer__menu none">
+                <div class="footer__menu-column">
+                    <nav>
+                        <ul>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Про
+                                    нас</a>
+                            </li>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Команда</a>
+                            </li>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Блог</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <h4 class="footer__menu-column-text-wrap"><a
+                            class="footer__menu-column-text footer__menu-column-text--pink" href="#">Drabyna</a>
+                    </h4>
+                </div>
+                <div class="footer__menu-column">
+                    <nav>
+                        <ul>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Цікава
+                                    інформація</a></li>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Вакансії</a>
+                            </li>
+                            <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Доставка
+                                    та
+                                    оплата</a></li>
+                        </ul>
+                    </nav>
+                    <h4 class="footer__menu-column-text-wrap"><a
+                            class="footer__menu-column-text footer__menu-column-text--pink" href="#">Етнодім
+                            Маніфест</a>
+                    </h4>
+                </div>
+                <div class="footer__menu-column">
+                    <h4 class="footer__menu-column-text footer__menu-column-text--underline">Контакти</h4>
+                    <p class="footer__menu-column-text">+38 097 888 92 92</p>
+                    <p class="footer__menu-column-text">Україна, м. Київ, вул. Верхній Вал 58/28</p>
+                    <div class="footer__menu-column-time flex">
+                        <p class="footer__menu-column-text">пн-пт 10:00-20:00</p>
+                        <p class="footer__menu-column-text">сб-нд 11:00-19:00</p>
+                    </div>
+
+                </div>
+                <div class="footer__menu-column">
+                    <h4 class="footer__menu-column-text footer__menu-column-text--underline">Соціальні мережі</h4>
+                    <div class="footer__menu-column-icons column-icon flex">
+                        <img class="column-icon__img" src="./img/facebook-logo.svg" alt="">
+                        <img class="column-icon__img" src="./img/youtube-logo.svg" alt="">
+                        <img class="column-icon__img" src="./img/mail-logo.svg" alt="">
+                        <img class="column-icon__img" src="./img/pinterest-logo.svg" alt="">
+                        <img class="column-icon__img" src="./img/inst-logo.svg" alt="">
+                    </div>
+                    <div class="footer__menu-column-text-wrap2">
+                        <p class="footer__menu-column-text">© «Етнодім» 2009-2021</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__menu-mobile">
+                <div class="footer__menu-mobile--grid">
+                    <div class="footer__menu-column">
+                        <nav>
+                            <ul>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Про
+                                        нас</a>
+                                </li>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text"
+                                        href="#">Команда</a>
+                                </li>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Блог</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <h4 class="footer__menu-column-text-wrap"><a
+                                class="footer__menu-column-text footer__menu-column-text--pink" href="#">Drabyna</a>
+                        </h4>
+                    </div>
+                    <div class="footer__menu-column">
+                        <nav>
+                            <ul>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Цікава
+                                        інформація</a></li>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text"
+                                        href="#">Вакансії</a>
+                                </li>
+                                <li class="footer__menu-column-li"><a class="footer__menu-column-text" href="#">Доставка
+                                        та
+                                        оплата</a></li>
+                            </ul>
+                        </nav>
+                        <h4 class="footer__menu-column-text-wrap"><a
+                                class="footer__menu-column-text footer__menu-column-text--pink" href="#">Етнодім
+                                Маніфест</a>
+                        </h4>
+                    </div>
+                    <div class="footer__menu-column">
+                        <h4 class="footer__menu-column-text footer__menu-column-text--underline">Соціальні мережі
+                        </h4>
+                        <div class="footer__menu-column-icons column-icon">
+                            <img class="column-icon__img" src="./img/facebook-logo.svg" alt="">
+                            <img class="column-icon__img" src="./img/youtube-logo.svg" alt="">
+                            <img class="column-icon__img" src="./img/mail-logo.svg" alt="">
+                            <img class="column-icon__img" src="./img/pinterest-logo.svg" alt="">
+                            <img class="column-icon__img" src="./img/inst-logo.svg" alt="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer__menu-column footer__menu-column--last">
+                    <h4 class="footer__menu-column-text footer__menu-column-text--underline">Контакти</h4>
+                    <p class="footer__menu-column-text">+38 097 888 92 92</p>
+                    <p class="footer__menu-column-text">Україна, м. Київ, вул. Верхній Вал 58/28</p>
+                    <div class="footer__menu-column-time flex">
+                        <p class="footer__menu-column-text">пн-пт 10:00-20:00</p>
+                        <p class="footer__menu-column-text">сб-нд 11:00-19:00</p>
+                    </div>
+                    <div class="footer__menu-column-text-wrap2">
+                        <p class="footer__menu-column-text">© «Етнодім» 2009-2021</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+</body>
+
+</html>
