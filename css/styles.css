@@ -973,6 +973,7 @@ body {
 }
 .section-goods__content-title {
     margin-top: 2.7vw;
+    align-items: center;
 }
 .section__text {
     font-family: 'Raleway';
@@ -1533,6 +1534,12 @@ margin-top: 0.69vw;
         width: 2vw;
         height: 2vw;
         margin-left: 1vw;
+    }
+    .grid__item-a--first:hover .grid__item-img--hover {
+        display: none;
+    }
+    .grid__item-img--hover  {
+        display: none;
     }
     .grid__item-p {
     font-size: 3.2vw;
